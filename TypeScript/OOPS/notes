@@ -1,0 +1,32 @@
+OBJECT ORIENTED PROGRAMMING IN TYPESCRIPT:
+IN TYPESCRIPT we can handle the following phenomenons
+1)Inheritance:
+  * The phenomenon of the childclass acquiring the properties ofsuper class is called Inheritance.
+  * The constructors cannot be inheritance,they can only be invoke using superkeyword.
+2)Polymorphism:
+ * The phenomenon where one object behaves in multiple manners is called polymorphism
+    ex:one single person behaves as one Employee at a company,has a passenger in a bus
+* There are two types of polymorphism
+a)Compiletime polymorphism(static polymorphism):-
+ * The binding between object & the function happens during compile time
+ * It is shown by function overloading
+ * function overloading means multiple functions having the same name but different types of parameters.
+b) Run time polymorphism(dynamic polymorphism):-
+ * The binding between object and the function happens during run time.
+ * It shown by function overriding.
+ * function overriding means changing the implimentation of superclass function by the child class function. TO make this happen the superclass and child class must have the function with 
+ the same function name & parameter but different implimentation  
+ 3) Abstruction:
+ It is the process of hiding the implimentation of and providing only the functionality of an object.
+ 4) Encaspulation:
+  It is brought about by resricting direct acess to the attributes using private keyword and providing 
+  indirect acess using setter & getter function
+  read + write => get()+set()
+  read ->get()
+  write ->set()
+  Abstraction:
+  * It is the process of hiding the implementation and providing only the functionality.
+  * It is implemented by making the class Abstruct keyword.
+  * Abstract class can have abstract function and non-abstract function(concrete functions) function which have function body is called concreate function
+  * Abstract class cannot be instantiatial
+  All the abstract function must be implemented(overridden) all the Abstruct function must be implimented by childclass.
